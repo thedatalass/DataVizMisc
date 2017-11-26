@@ -1,0 +1,31 @@
+Morning Joe Project , Fall 2017 Data Visualization Final Project, Indiana University
+
+Data Sources
+
+Brazil
+Rust Data: June 2008 - December 2009 - Paolo - Table 1
+Rust Data: September 2005 -August 2006 - Jaipiassu - Figure 4
+Weather Data (Rainfall and Temperature averages by month)- http://sdwebx.worldbank.org/climateportal/index.cfm?page=country_historical_climate&ThisCCode=PNG
+2008-2009 Production Data: www.icafe.cr/sector-cafetalero/informacion-de-mercado/estadisticas-y-precios
+Coffee Futures: US Commodities Futures Trading Commission (view by year)
+
+Papa New Guinea
+Rust Data: Brown
+Used average of Onaningka, Kayokite and Bena plots in figure 1 by month since they had the same climate type as one another (wet seasonally dry) - reasonable approximation
+Weather Data (Rainfall and Temperature averages by month)- http://sdwebx.worldbank.org/climateportal/index.cfm?page=country_historical_climate&ThisCCode=PNG
+Production: http://www.icafe.cr/sector-cafetalero/informacion-de-mercado/estadisticas-y-precios/ (See ‘Paises Productores’ tab)
+Coffee Futures: US Commodities Futures Trading Commission (view by year)
+
+Colombia
+Rust Data: January - December 1995 - Ruiz Cardenas 
+Figure 1 - % rust incidence = percent dead leaves = 100 -% alive leaves = 100 - (striped bars in figure 1)- will take an average of %Supia, %La Catalina and %Naranjal at 60 days after flowering - samples are from trees not individual leaves
+
+		= 1- ((48+38+20)/3) = 1-35.33 = 34.33% - will use this one value for all months
+	
+Rust Data: August 2011- March 2013 -  Corrales
+Average of 16 samples was used to calculate monthly rust rate percent
+Production 1995: http://www.coffeeresearch.org/market/production.htm 
+Weather Data (Rainfall and Temperature averages by month)- http://sdwebx.worldbank.org/climateportal/index.cfm?page=country_historical_climate&ThisCCode=PNG
+Used Latitude/Longitude for Supia, Colombia (5.4559N, -75.6504W) for 1995 Ruiz Cardenas and (Cauca, Colombia) 3.3599N, -76.6386W from Corales Materials and Methods section
+Coffee Futures: US Commodities Futures Trading Commission (1995-November 2012)
+Coffee Futures: https://www.quandl.com/data/CFTC/KC_F_L_ALL-Commitment-of-Traders-Coffee-C-Futures-Only-Legacy-Format-083731  (December 2012-March 2013)
