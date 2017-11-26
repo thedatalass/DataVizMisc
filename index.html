@@ -1,0 +1,100 @@
+﻿<html>
+<head>
+<title>Morning Joe Project by Laura Kahn</title>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<header id="myHeader">
+    <div class="w3-container w3-theme-l2 w3-padding-15>
+
+<h1 class="w3-text-white> Indiana University | Morning Joe Data Visualization Project | Fall 2017 </h1>
+<h2><a href="https://twitter.com/LauraHKahn?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">@LauraHKahn</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div></h2>
+
+  </header>
+
+<body>
+<div class="w3-row">
+    <div class="w3-container" style="background:#cbac85">
+      <h2 class="w3-text-black w3-animate-left">Introduction</h2>
+      <p>More than 2 billion cups of coffee (cafe arabica) are consumed worldwide each day.</p> <img src='2B.jpg' style="width:258px; height:183px; style="float:right">
+<p> The livelihood of 120 million people depends on the coffee supply chain.</p>
+<p> But <b>COFFEE is in TROUBLE! </p></b> 
+<p> Coffee rust leads to losses of more than $500 million worldwide. </p>
+<p>Coffee rust is the main disease that causes plant leaves to turn <b> yellow</b>. </p>
+<img src='rust.jpg' style="width:258px; height:183px; style="float:right">
+<p> Coffee futures are the second most popular commodity traded worth over <i> $100 billion</i>. </p>
+<img src='futures.jpg' style="width:258px; height:183px; style="float:right">
+<p> Does coffee rust affect production and futures prices? </p>
+<p>Can visualizations be used to help draw conclusions about potential relationships between these variables? </p>
+<p>There is no known research on this topic to date. </p></div>
+
+<div class="w3-row"> 
+   <div class="w3-container" style="background:#c4923e">
+      <h1 class="w3-text-black w3-animate-left">Scope</h1>
+      <p> The project focuses on rust, production and futures <a href="https://github.com/thedatalass/DataVizMisc/blob/master/Coffee-Rust.csv">data</a> from Brazil, Colombia and Papua New Guinea from 1989-2013. </p>
+<p>These three countries produce <b> 48% </b> of the world's coffee.  </p>
+<p> <img src='Brasil.png' style="width:258px;height:367px;margin-right:1%; border:2px solid black"><img src='Colombia-3.png' style="width:258px;height:367px;margin-right:1%; border:2px solid black"><img src='newguinea1.png' align='top' style="width:258px;height:183px;border:2px solid black"></p>
+<p>
+
+<h3> Research Questions? </h3> 
+<ul style="margin-left: 10 px;">
+      <li>Is there a link between coffee rust and the amount of coffee produced?</li> 
+      <li> Is there a link between coffee rust and futures prices?</li> </ul>
+
+<p> Variables include 337 observations with the following features:
+<ul style="margin-left: 10 px;">
+<li> Rainfall </li>
+<li> Temperature </li>
+<li> Rust percent </li>
+<li> Production amount </li>
+<li> Futures prices </li></ul><p>
+
+<p> Data visualizations help to accept or not accept the following <b> hypotheses</b>: 
+      <ul style="margin-left: 10 px;">
+      <li> More rain = more coffee rust </li> 
+      <li> Higher temperatures = more coffee rust </li>
+      <li> More coffee rust = less production </li>
+      <li> More coffee rust = lower futures prices </li>
+      <li> More coffee production = lower futures prices </li></ul></div>
+      
+<div class="w3-row">    
+    <div class="w3-container" style="background:#c4b7a6">
+      <h1 class=" w3-animate-left">Results</h1>
+<p> From this <i> histogram </i> and kernel density estimate plot, coffee future data ranges mostly from 100-150 US$. </p>
+<p> <img src='futures-histogram.png' style="width:339px;height:240px;margin-right:1%; border:2px solid white">
+      <p> From the <i> line plots </i> of rust versus production and rust versus futures, these variables are probably correlated. </p>
+<p> The line plots were drawn with a logarithmic y-scale due to variation in variable data ranges. </p>
+<p><img src='rust-production-log.png' style="width:339px;height:240px;margin-right:1%; border:2px solid white"><img src='rust-futures.png' style="width:339px;height:240px;margin-right:1%; border:2px solid white">
+      <p> A <i> correlation matrix </i> visualization shows the amount each variable is correlated to another variable. </p>
+<p>Positive correlation (red) values means variables change in the same direction. </p>
+<p> Negative correlation values (blue) means change in the opposite direction. </p>
+<p><img src='correlation.jpg' style="width:339px;height:240px;margin-right:1%; border:2px solid white">
+<p> Finally, a <i> linear regression plot </i> shows that as rust increases, futures prices decrease. </p>
+<p><img src='lr-rust-futures.png' style="width:339px;height:240px;margin-right:1%; border:2px solid white">
+
+<h3> Visualizations Show </h3>
+      <ul"style= margin-left: 10 px;">
+      <li> More rain does not affect coffee rust </li>
+      <li> Higher temperatures = less coffee rust </li>
+      <li> More coffee rust = more production </li>
+      <li> More coffee rust = lower futures prices </li>
+      <li> More coffee production = higher future prices </li></ul>
+
+<h3 "style= margin-left: 10 px;> Conclusion </h3>
+<ul "style="margin-left: 10 px;">
+<li> More rust = lower futures prices (Accept original hypothesis) </li> 
+<li> Do not accept other original hypotheses </li></ul></div>
+
+<div class="w3-row">
+    <div class="w3-container" style="background:#cbac85">
+      <h1 class="w3-text-black w3-animate-left">Appendix 1 </h2>
+<p> <a href="https://drive.google.com/open?id=1AEDGw4xt5gdCCwyDkbVXJuovqr759hg9"> 
+Animated Visual </a>
+</div>
+</body>
+
+</html>
