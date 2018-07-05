@@ -1,4 +1,4 @@
 # DataVizMisc
 
-Miscellaneous data visualizations using R, Tableau, QGIS and other visualization tools
+Miscellaneous data visualizations using Python, R, Tableau, QGIS and Excel.
   
